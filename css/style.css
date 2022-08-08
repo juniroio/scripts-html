@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #F5696A, #A83838, #5C1516);
+    color: rgb(0, 0, 0);
+    background-color: rgb(165, 42, 42);
+    font-family: Underdog;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+    background-color: #5C1516;
+    text-align: center;
+    padding: 3px;
+}
+p#kk{
+    color: #271818;
+    background-color: #cc3333;
+    padding: 10px;
+
+    border-radius: 18px 6px;
+}
+header > h1#j1{
+    color: #064F1A;
+    background-color: #29A64D;
+    box-shadow: 0px 10px 14px #5c1516ad;
+    margin-bottom: 50px;
+    padding-top: 1;
+    
+    outline-style: solid;
+    outline-color: #064F1A;
+    outline-width: 5px;
+}
+footer > h2#j2{
+    color: #064F1A;
+    text-align: center;
+    background-color: #29A64D;
+    box-shadow: 0px -13px 13px #250909ad;
+    margin-top: 40px;
+    padding-bottom: 65px;
+    padding-top: 65px;
+
+    outline-style: solid;
+    outline-color: #064F1A;
+    outline-width: 5px;
+}
+.dest{
+    background-color: #5C1516;
+    padding: 3px;
+}
+.titulo2 {
+    color: white;
+    font-size: larger;
+}
+main{
+    background-color: #FF8C8C;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow:5px 5px 15px #5c1516ad;
+}
+div{
+    display: inline-block;
+    background-color: #29A64D;
+    border: 2px solid #064F1A;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+
+    outline-width: 5px;
+    outline-style: double;
+    outline-color: #5C1516;
+
+    margin: 10px 215px 10px 215px;
+}
+div:hover{
+    background-color: #064F1A;
+    color: white;
+}
+article{
+    background-color: #cc3333;
+    padding: 10px;
+    border-radius: 6px 18px;
+}
