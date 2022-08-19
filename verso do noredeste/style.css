@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+body{
+    min-height: 100vh;
+    background-color: rgb(94, 94, 94);
+    margin: 0px;
+}
+main{
+    background-color: white;
+    padding-top: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+
+    box-shadow: 0px 13px 20px 0px rgba(0, 0, 0, 0.411);
+}
+h1{
+    font-size: 8vh;
+    font-family: 'Acme', sans-serif;
+}
+p{
+    font-size: 3.5vh;
+    font-family: 'Satisfy', cursive;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    padding-top: 11vh;
+    padding-left: 30px;
+    padding-bottom: 11vh;
+    line-height: 2em;
+}
+footer{
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+section.imagenon{
+    background-color: white;
+}
+section.imageyes{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border: 3px solid black;
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.226);
+}
+section.imageyes>p{
+    width: 300px;
+    padding: 1vh;
+    padding-left: 30px;
+    margin-left: -30px;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+section#j1{
+    background-image: url('imagens/vista_da_lua.jpeg');
+}
+section#j2{
+    background-image: url('imagens/por_do_sol.jpeg');
+}

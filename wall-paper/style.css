@@ -1,0 +1,29 @@
+@charset "UTF";
+
+
+body{
+    background-image: url(imagens/wallpaper002.jpg);
+    height: 100vh;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div.squad{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+div#j1{
+    background-image: url(imagens/pattern001.png);
+}
+div#j2{
+    background-image: url(imagens/84134c5d186095ccf313a5157fe04e10.jpg);
+}
+div#j3{
+    text-align: center;
+}
