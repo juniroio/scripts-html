@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tabelas e tudo mais</title>
+</head>
+<body>
+    <h1>minha tabelinha toda cheia de negocinho</h1>
+    <div class="container">
+        <table>
+            <caption>
+                batalhas da primeira guerra mundial
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col">nome</th><th scope="col" colspan="2">píses</th><th scope="col">vitoria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Batalha de Tannemberg</td><td>Russia</td><td>Alemanha</td><td>Alemanha</td>
+                </tr>
+                <tr>
+                    <td>Primeira Batalha do Marne</td><td>Alemanha</td><td>França</td><td>França</td>
+                </tr>
+                <tr >
+                    <td>Batalha de Gallipoli</td><td>Aliados</td><td>Imp.Otomano</td><td>Imp.Otomano</td>
+                </tr>
+                <tr>
+                    <td>Batalha de Somme</td><td>Alemanha</td><td>Aliados</td><td>Aliados</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h1>uns numeros loucos</h1>
+    <div class="container">
+        <table id="center">
+            <tr class="white">
+                <td>1</td><td>2</td><td rowspan="2">3</td><td>4</td>
+            </tr>
+            <tr class="white">
+                <td>5</td><td>6</td><td>7</td>
+            </tr>
+            <tr class="white">
+                <td colspan="3">8</td><td>9</td>
+            </tr>
+            <tr class="white">
+                <td rowspan="2">10</td><td colspan="2">11</td><td>12</td>
+            </tr>
+            <tr class="white">
+                <td>13</td><td>14</td><td>15</td>
+            </tr>
+        </table>
+    </div>
+    <h1>umas letras loucas</h1>
+    <div class="container">
+        <table id="center">
+            <tr class="white">
+                <td colspan="4">A</td><td rowspan="4">B</td>
+            </tr>
+            <tr class="white">
+                <td rowspan="4">C</td><td>D</td><td>E</td><td>F</td>
+            </tr>
+            <tr class="white">
+                <td>G</td><td>H</td><td>I</td>
+            </tr>
+            <tr class="white">
+                <td>J</td><td>L</td><td>M</td>
+            </tr>
+            <tr class="white">
+                <td colspan="4">N</td>
+            </tr>
+        </table>
+    </div>
+    <h1>uma tabela de media 0</h1>
+    <div class="container">
+        <table>
+
+            <thead>
+                <tr class="white">
+                    <th rowspan="2" scope="colgroup">Área</th><th rowspan="2">Disciplina</th><th colspan="2" scope="colgroup">Notas</th><th rowspan="2" scope="colgroup">Média</th>
+                </tr>
+                <tr class="white">
+                    <th scope="colgroup">Nota 1</th><th scope="colgroup">Nota 2</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr class="white">
+                    <td rowspan="4" class="esp">Exatas</td><td>Matemática</td><td class="esp">0.0</td><td class="esp">0.0</td><td class="esp">0.0</td>
+                </tr>
+                <tr class="white">
+                    <td>Física</td><td class="esp">0.0</td><td class="esp">0.0</td><td class="esp">0.0</td>
+                </tr>
+                <tr class="white">
+                    <td>Química</td><td class="esp">0.0</td><td class="esp">0.0</td><td class="esp">0.0</td>
+                </tr>
+                <tr class="white">
+                    <td>Biologia</td><td class="esp">0.0</td><td class="esp">0.0</td><td class="esp">0.0</td>
+                </tr>
+            </tbody>
+    
+            <tbody class="gray">
+                <tr class="white">
+                    <td colspan="4">Média de Exatas</td><td class="esp">0.0</td>
+                </tr>
+            </tbody>
+    
+            <tbody>
+                <tr class="white">
+                    <td class="esp" rowspan="2">Humanas</td><td class="esp">História</td><td class="esp">0.0</td><td class="esp">0.0</td><td class="esp">0.0</td>
+                </tr>
+                <tr class="white">
+                    <td class="esp">Geografia</td><td class="esp">0.0</td><td class="esp">0.0</td><td class="esp">0.0</td>
+                </tr>
+            </tbody>
+    
+            <tfoot>
+                <tr class="white">
+                    <td colspan="4">Média de Humanas</td><td class="esp">0.0</td>
+                </tr>
+            </tfoot>
+    
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulauros</title>
+</head>
+<body>
+    <h1>olhas esse formulario</h1>
+    <fieldset>
+        <legend>suas/minhas informações
+        </legend>
+        <form action="cadastro.php" method="post" autocomplete="off">
+            <p>
+                <label for="nome">NOME:</label> <input type="text" name="nome" id="nome" required minlength="3" maxlength="35" size="32" placeholder="no minimo 3 letras">
+            </p>
+            <p>
+                <label for="sobrenome">SOBRENOME:</label> <input type="text" name="sobrenome" id="sobrenome" required minlength="4" maxlength="25" size="25" placeholder="no minimo 4 letras">
+            </p>
+            <p>
+                <label for="sdc">SENHA DO CARTÃO:</label> <input type="password" name="sdc" id="sdc" required minlength="8" maxlength="40" size="18" placeholder="no minimo 8 letras">
+            </p>
+            <p>
+                <label for="dnn">DATA  DE NASCIMENTO:</label> <input type="date" name="ddn" id="ddn" required>
+            </p>
+            <p>
+                <label for="regi">REGIÃO ONDE VOCÊ MORA:</label>
+                <select name="regi" id="regi">
+                    <option value="NORD">Nordeste</option>
+                    <option value="C-O">Centro-Oeste</option>
+                    <option value="SUL">Sul</option>
+                    <option value="NORT">Norte</option>
+                    <option value="SUD">Sudeste</option>
+                </select>
+            </p>
+            <p>
+                <input type="submit" value="enviar">
+            </p>
+        </form>
+    </fieldset>
+
+    <h1>marcações e tudo mais</h1>
+
+    <fieldset>
+        <legend>perguntas/suas respostas</legend>
+        <form action="cadastro.php">
+            <p>
+                animal preferido: <br>
+                <input type="checkbox" name="a" id="a"><label for="a">furão</label><br>
+                <input type="checkbox" name="b" id="b"><label for="b">rato-toupeira-pelado</label><br>
+                <input type="checkbox" name="c" id="c"><label for="c">aye-aye</label><br>
+                <input type="checkbox" name="d" id="d"><label for="d">Andrewsarchus</label><br>
+                <input type="checkbox" name="e" id="e"><label for="e">arthropleura</label><br>
+            </p>
+            <p>
+                <input type="submit" value="enviar">
+            </p>
+        </form>
+    </fieldset>
+
+    <h1>calculos simples</h1>
+
+    <fieldset>
+        <form action="cadastro.php" method="get">
+            <p>
+                <label for="in1">Número:</label>
+                <input type="number" name="n1" id="in1" required min="0" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+            <p>
+                <label for="in2">Mais um número </label>
+                <input type="number" name="n2" id="in2" required min="0"  oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+            <p>
+                <label for="isoma">RESULTADO: </label>
+                <output name="soma" id="isoma">0</output>
+            </p>
+            <p>
+                <label for="inum">De 0 a 1000 o quanto você gostou desse site ruim: </label>
+                <input type="range" name="num" id="inum" min="0" max="1000" value="500" oninput="ival.innerHTML = Number(inum.value)">
+                <output id="ival">500</output>
+            </p>
+            <p>
+                <input type="submit" value="enviar">
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
