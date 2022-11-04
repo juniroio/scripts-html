@@ -10,8 +10,20 @@ html {
     text-align: justify;
     font-size: 1em;
 }
+body {
+    background-color: #CC5C50;
+}
+main {
+    margin: auto;
+    height: 40vh;
+    padding: 1vw;
+}
 article {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
     margin: 10px 25px 30px 25px;
+    box-shadow: rgba(0, 0, 0, 0.212) 0px 6px 10px;
 }
 article p {
     line-height: 1.3em;
@@ -26,6 +38,9 @@ h1 {
     background-color: #8F1A0D;
     text-align: center;
 }
+menu{
+    display: none;
+}
 menu ul {
     padding: 3px;
     margin-bottom: 5px;
@@ -37,12 +52,34 @@ menu li {
     margin: 2px 5px 2px 5px;
     padding: 5px;
     display: block;
-text-align: center;
+    text-align: center;
 }
 li a {
     color: white;
     text-decoration: none;
 }
 menu li:hover {
+    background-color: #8F1A0D;
+}
+span#burguer {
+    color: white;
+    background-color: #8F1A0D;
+    display: block;
+    padding: 5px;
+    width: 70px;
+    border-radius: 3px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid #420C06;
+    box-shadow: rgba(0, 0, 0, 0.301) 0px 4px 8px;
+}
+span#burguer:hover {
+    background-color: #C32411;
+    color: black;
+    box-shadow: inset rgba(0, 0, 0, 0.301) 0px 4px 8px;
+}
+div {
+    padding: 10px;
     background-color: #8F1A0D;
 }
